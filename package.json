@@ -1,5 +1,5 @@
 {
-  "name": "next-optimized-images",
+  "name": "@andreisergiu98/next-optimized-images",
   "version": "3.0.0-canary.10",
   "description": "Automatically optimize images used in next.js projects (jpeg, png, gif, svg).",
   "keywords": [
@@ -12,7 +12,7 @@
     "optimized-images"
   ],
   "author": "Cyril Wanner <info@cyr.li>",
-  "homepage": "https://github.com/cyrilwanner/next-optimized-images#readme",
+  "homepage": "https://github.com/andreisergiu98/next-optimized-images#readme",
   "license": "MIT",
   "scripts": {
     "build": "npm run build:js && npm run build:types",
@@ -52,9 +52,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyrilwanner/next-optimized-images.git"
+    "url": "git+https://github.com/andreisergiu98/next-optimized-images.git"
   },
   "bugs": {
-    "url": "https://github.com/cyrilwanner/next-optimized-images/issues"
+    "url": "https://github.com/andreisergiu98/next-optimized-images/issues"
   }
 }
