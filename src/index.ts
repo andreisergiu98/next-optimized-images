@@ -74,12 +74,12 @@ const withOptimizedImages = (
           {
             loader: 'optimized-images-loader',
             options: {
-              outputPath: 'static/chunks/images/',
+              outputPath:`static/images/`,
               publicPath: nextConfig.assetPrefix
                 ? `${nextConfig.assetPrefix}${
                     nextConfig.assetPrefix.endsWith('/') ? '' : '/'
-                  }_next/static/chunks/images/`
-                : '/_next/static/chunks/images/',
+                  }_next/static/images/`
+                : '/_next/static/images/',
               includeStrategy: 'react',
               ...(nextConfig.images || {}),
             },
